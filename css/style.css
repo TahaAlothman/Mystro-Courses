@@ -1,0 +1,32 @@
+body {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.Banner-img {
+    border-radius: 400%;
+    width: 400px;
+    height: 374px;
+    object-fit: cover;
+}
+.banner-subtitle{
+    font-size: 16px;
+    font-weight: 700;
+}
+.banner-title{
+    font-size: 60px;
+    font-weight: 700;
+}
+.feature-card:hover{
+border: 2px solid red;
+}
+.card:hover .course-img {
+    transform: scale(1.2);
+}
+.course-img{
+   
+    transition: all.500s;
+}
+.card{
+    overflow: hidden;
+}
